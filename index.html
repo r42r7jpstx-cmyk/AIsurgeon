@@ -4,55 +4,65 @@
   <meta charset="UTF-8">
   <title>NeuroForge Medical</title>
 
-  <!-- 强制加载高端字体（肉眼可见变化） -->
+  <!-- 硅谷常用字体 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- 强制样式生效（绕过缓存） -->
-  <link rel="stylesheet" href="style.css?v=999">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <nav>
   <div class="logo">NeuroForge Medical</div>
   <ul>
-    <li><a href="index.html">Home</a></li>
     <li><a href="company.html">Company</a></li>
     <li><a href="technology.html">Technology</a></li>
     <li><a href="team.html">Team</a></li>
     <li><a href="compliance.html">Compliance</a></li>
-    <li><a href="contact.html">Contact</a></li>
+    <li><a href="contact.html" class="nav-btn">Contact</a></li>
   </ul>
 </nav>
 
+<!-- HERO -->
 <header class="hero">
-  <h1>Software-Defined Intelligence for Precision Surgery</h1>
-  <p>
-    NeuroForge Medical develops AI-driven software systems that enable
-    programmable control of precision surgical instruments, supporting
-    safer and more consistent surgical workflows.
-  </p>
+  <div class="hero-content">
+    <h1>
+      NeuroForge Medical
+      <span>AI-Driven Software for Precision Surgical Systems</span>
+    </h1>
+
+    <p>
+      We develop software-defined intelligence that enables programmable,
+      safe, and precise control of advanced surgical instruments.
+    </p>
+
+    <div class="hero-actions">
+      <a href="technology.html" class="btn primary">Explore Technology</a>
+      <a href="contact.html" class="btn secondary">Partner With Us</a>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <img src="hero.jpg" alt="AI Medical Technology">
+  </div>
 </header>
 
-<section>
-  <h2>What We Do</h2>
-  <p>
-    We build software-defined intelligence that bridges artificial
-    intelligence and advanced surgical hardware. Our systems translate
-    surgical intent into controlled, repeatable device behavior—while
-    maintaining human oversight at every stage.
-  </p>
-</section>
+<!-- CORE VALUE -->
+<section class="feature">
+  <div class="feature-text">
+    <h2>Software-Defined Surgery</h2>
+    <p>
+      NeuroForge Medical focuses on applying artificial intelligence
+      to the programming and control layer of precision surgical devices.
+      Our systems are designed to enhance accuracy, consistency,
+      and safety—while keeping surgeons in control.
+    </p>
+  </div>
 
-<section>
-  <h2>Why It Matters</h2>
-  <p>
-    Modern surgery demands extreme precision and reliability.
-    By applying AI-assisted programming to surgical device control,
-    NeuroForge Medical aims to reduce variability, enhance safety,
-    and support better clinical outcomes.
-  </p>
+  <div class="feature-image">
+    <img src="tech.jpg" alt="Medical AI System Architecture">
+  </div>
 </section>
 
 <footer>
