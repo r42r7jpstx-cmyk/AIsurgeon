@@ -1,32 +1,25 @@
-/* ===========================
-   GLOBAL FONT + RESET
-   =========================== */
-
+/* ===== 全局重置 ===== */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* 主体字体设置（高级感 + 跨平台兼容） */
+/* ===== 全站字体 & 质感 ===== */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-               Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Arial, sans-serif;
   background: #f6f8fb;
   color: #1f2937;
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
-/* ===========================
-   NAVIGATION
-   =========================== */
-
+/* ===== 导航栏 ===== */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 60px;
+  padding: 22px 64px;
   background: #0f203a;
 }
 
@@ -34,80 +27,56 @@ nav .logo {
   color: #ffffff;
   font-size: 20px;
   font-weight: 600;
+  letter-spacing: 0.3px;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 24px;
+  gap: 28px;
 }
 
 nav a {
-  color: #e5e7eb;
+  color: #d1d5db;
   text-decoration: none;
   font-size: 15px;
   font-weight: 500;
-  transition: color .2s;
 }
 
 nav a:hover {
   color: #ffffff;
 }
 
-/* ===========================
-   HERO SECTION
-   =========================== */
-
+/* ===== Hero 区 ===== */
 .hero {
-  padding: 100px 60px;
+  padding: 110px 64px;
   background: linear-gradient(135deg, #1f3c88, #2f5aa8);
   color: #ffffff;
-  text-align: center;
 }
 
 .hero h1 {
-  font-size: 44px;
+  font-size: 46px;
   font-weight: 700;
-  margin-bottom: 14px;
+  max-width: 960px;
+  margin-bottom: 16px;
 }
 
 .hero p {
-  font-size: 18px;
-  max-width: 860px;
-  margin: 0 auto;
-}
-
-/* ===========================
-   TYPOGRAPHY
-   =========================== */
-
-section {
+  font-size: 19px;
   max-width: 900px;
-  margin: 60px auto;
-  padding: 0 60px;
 }
 
-h1 {
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 16px;
-  color: #111827;
+/* ===== 内容区 ===== */
+section {
+  max-width: 960px;
+  margin: 80px auto;
+  padding: 0 64px;
 }
 
 h2 {
   font-size: 28px;
   font-weight: 600;
-  margin-top: 36px;
-  margin-bottom: 8px;
-  color: #1f2937;
-}
-
-h3 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-top: 30px;
-  margin-bottom: 6px;
-  color: #1f2937;
+  margin-bottom: 14px;
 }
 
 p {
@@ -116,15 +85,11 @@ p {
   margin-top: 12px;
 }
 
-/* ===========================
-   FOOTER
-   =========================== */
-
+/* ===== 页脚 ===== */
 footer {
   text-align: center;
-  padding: 28px;
+  padding: 36px;
   font-size: 14px;
   color: #6b7280;
   border-top: 1px solid #e5e7eb;
-  margin-top: 60px;
 }
