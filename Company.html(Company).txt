@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Company | NeuroForge Medical</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">NeuroForge Medical</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="company.html">Company</a></li>
+    <li><a href="technology.html">Technology</a></li>
+    <li><a href="team.html">Team</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<section>
+  <h1>Company</h1>
+  <p>
+    NeuroForge Medical is an early-stage surgical technology company focused on
+    applying artificial intelligence to the programming and control of
+    precision surgical instruments.
+  </p>
+
+  <p>
+    Our mission is to transform complex surgical workflows into
+    software-defined systems that enhance precision, safety, and repeatability.
+  </p>
+
+  <p>
+    We believe the future of surgery lies in intelligent systems that
+    assist—not replace—surgeons, enabling better outcomes through
+    advanced computation and real-time control.
+  </p>
+</section>
+
+<footer>
+  © 2026 NeuroForge Medical
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Team | NeuroForge Medical</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">NeuroForge Medical</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="company.html">Company</a></li>
+    <li><a href="technology.html">Technology</a></li>
+    <li><a href="team.html">Team</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<section>
+  <h1>Leadership & Team</h1>
+
+  <h3>Frank Lee</h3>
+  <p><strong>Founder & CEO</strong></p>
+  <p>
+    Frank Lee leads NeuroForge Medical with a focus on AI-driven surgical
+    systems, product strategy, and long-term technology vision.
+  </p>
+
+  <h3>Head of AI Systems</h3>
+  <p>
+    Oversees development of machine learning models and control algorithms
+    for precision surgical applications.
+  </p>
+
+  <h3>Principal Robotics Engineer</h3>
+  <p>
+    Leads integration of software control systems with advanced surgical
+    instrumentation and robotics platforms.
+  </p>
+
+  <h3>Clinical Advisor</h3>
+  <p>
+    Provides guidance on clinical workflows, safety considerations,
+    and translational strategy.
+  </p>
+</section>
+
+<footer>
+  © 2026 NeuroForge Medical
+</footer>
+
+</body>
+</html>

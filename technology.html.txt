@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Technology | NeuroForge Medical</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">NeuroForge Medical</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="company.html">Company</a></li>
+    <li><a href="technology.html">Technology</a></li>
+    <li><a href="team.html">Team</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<section>
+  <h1>Technology</h1>
+
+  <h2>AI-Controlled Surgical Systems</h2>
+  <p>
+    Our platform focuses on software-defined control layers that interface
+    with precision surgical instruments, enabling intelligent motion,
+    adaptive responses, and real-time feedback.
+  </p>
+
+  <h2>Programming Precision</h2>
+  <p>
+    We apply advanced AI algorithms to translate surgical intent into
+    controlled, repeatable device behavior while maintaining
+    surgeon-in-the-loop oversight.
+  </p>
+
+  <h2>Safety by Design</h2>
+  <p>
+    NeuroForge systems are designed with multi-layer safety logic,
+    continuous monitoring, and fail-safe constraints to support
+    responsible clinical integration.
+  </p>
+</section>
+
+<footer>
+  © 2026 NeuroForge Medical
+</footer>
+
+</body>
+</html>
