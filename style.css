@@ -5,13 +5,26 @@
   padding: 0;
 }
 
-/* ===== 全站字体 & 质感 ===== */
+/* ===== 页面进入动画 ===== */
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== 全站基础 ===== */
 body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont,
                "Segoe UI", Roboto, Arial, sans-serif;
   background: #f6f8fb;
   color: #1f2937;
   line-height: 1.65;
+  animation: fadeSlideUp 0.9s ease-out;
 }
 
 /* ===== 导航栏 ===== */
@@ -47,7 +60,7 @@ nav a:hover {
   color: #ffffff;
 }
 
-/* ===== Hero 区 ===== */
+/* ===== Hero ===== */
 .hero {
   padding: 110px 64px;
   background: linear-gradient(135deg, #1f3c88, #2f5aa8);
@@ -57,13 +70,14 @@ nav a:hover {
 .hero h1 {
   font-size: 46px;
   font-weight: 700;
-  max-width: 960px;
   margin-bottom: 16px;
+  animation: fadeSlideUp 1.1s ease-out;
 }
 
 .hero p {
   font-size: 19px;
   max-width: 900px;
+  animation: fadeSlideUp 1.2s ease-out;
 }
 
 /* ===== 内容区 ===== */
@@ -73,23 +87,12 @@ section {
   padding: 0 64px;
 }
 
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
 h2 {
   font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 14px;
-}
-
-p {
-  font-size: 17px;
-  color: #374151;
-  margin-top: 12px;
-}
-
-/* ===== 页脚 ===== */
-footer {
-  text-align: center;
-  padding: 36px;
-  font-size: 14px;
-  color: #6b7280;
-  border-top: 1px solid #e5e7eb;
-}
+  font-weight
